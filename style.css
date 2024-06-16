@@ -71,7 +71,9 @@ main > section, main > article {
 }
 
 main > section.hero {
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
   height: 300px;
   background-image: url(https://picsum.photos/1920/1000);
   background-size: cover;
